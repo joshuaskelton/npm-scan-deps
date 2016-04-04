@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+var npmscandeps = require("./../npm-scan-deps");

@@ -1,0 +1,19 @@
+{
+  "name": "npm-scan-deps",
+  "version": "0.0.1",
+  "description": "A small utility to check a package for known malicious dependencies",
+  "main": "npm-scan-deps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joshuaskelton",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+      "npm-scan-deps": "./bin/npm-scan-deps"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "npm-remote-ls": "^1.2.1"
+  }
+}
