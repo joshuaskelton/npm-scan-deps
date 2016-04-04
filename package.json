@@ -1,10 +1,14 @@
 {
   "name": "npm-scan-deps",
-  "version": "0.0.1",
-  "description": "A small utility to check a package for known malicious dependencies",
+  "version": "0.0.2",
+  "description": "A small utility to check an npm package for known security holding packages",
   "main": "npm-scan-deps.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/joshuaskelton/npm-scan-deps"
   },
   "author": "joshuaskelton",
   "license": "MIT",
